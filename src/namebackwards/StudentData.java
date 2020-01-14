@@ -49,5 +49,19 @@ public class StudentData {
     public void setAddress(String adress) {
         this.address = adress;
     }
+
+    /**
+     * @return the grade
+     */
+    public int getGrade() {
+        return grade;
+    }
+
+    /**
+     * @param grade the grade to set
+     */
+    public void setGrade(int grade) {
+        this.grade = grade;
+    }
     
 }
