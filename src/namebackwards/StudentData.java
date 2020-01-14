@@ -6,8 +6,7 @@ public class StudentData {
     private int id;
     private String name;
     private String address;
-    private int grade;
-    int num;
+    private int grades;
     
     /**
      * @return the id
@@ -54,15 +53,15 @@ public class StudentData {
     /**
      * @return the grade
      */
-    public int getGrade() {
-        return grade;
+    public int getGrades() {
+        return grades;
     }
 
     /**
      * @param grade the grade to set
      */
-    public void setGrade(int grade) {
-        this.grade = grade;
+    public void setGrades(int grade) {
+        this.grades = grade;
     }
     
 }
