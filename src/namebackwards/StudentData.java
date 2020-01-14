@@ -6,6 +6,7 @@ public class StudentData {
     private int id;
     private String name;
     private String address;
+    private int grade;
     
     /**
      * @return the id
